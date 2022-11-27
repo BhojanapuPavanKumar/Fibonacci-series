@@ -5,4 +5,4 @@ def fib()
     return fib(c-1)+fib(c-2)
 c=int(input())
 for i in range(c+2):
-  print(fib(),end=" ")
+  print(fib(i),end=" ")
